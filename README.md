@@ -8,7 +8,7 @@ Scope
 
 JavaScript uses global variables, and variables are global by default.  Many of the tips presented in this section show how to avoid using global variables and avoid name collisions.
 
-== (double equals operator)
+== Equals Operator vs. Strict Equals Operator (spoiler alert: Strict Equals Operator wins!) 
 ---------------------------
 
 JavaScript offers a == operator(equals operator), and a === operator(strict equals operator).
