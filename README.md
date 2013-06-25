@@ -19,5 +19,5 @@ The === operator conforms to special rules when comparing strings to strings, an
 #### Equals Operator: ==
 The == operator will compare arguments of different types, and it's behavior is more difficult to understand than the Strict Equals operator.
 
-#### Wrapper Classes
-Wrapper classes can be confuse the Strict Equals operator.  The Strict Equals operator does not attempt to compare arguments of different types.  If you initialize a variable using a wrapper class, then the type of that variable will always be *object*.  The type literal values can be different.  For example, typeof true evaluates to boolean.
+### Wrapper Classes
+Wrapper classes can be confuse the Strict Equals operator.  The Strict Equals operator does not attempt to compare arguments of different types.  If you initialize a variable using a wrapper class, then the type of that variable will always be *object*.  The type of literal values can be different.  For example, typeof true evaluates to boolean.
